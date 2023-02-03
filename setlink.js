@@ -5,12 +5,12 @@ const userInput = readline.createInterface({
   output: process.stdout,
 });
 console.log("");
-console.log("........................................................");
-console.log(".       This Tool Present by Learning Journey          .");
-console.log(".``````````````````````````````````````````````````````.");
-console.log(". Subscribe My Youtube Channel For Link Update         .");
-console.log(". Youtube:https://www.youtube.com/@learningjourneybd   .");
-console.log(".______________________________________________________.");
+console.log("....................................................");
+console.log("       This Tool Present by Learning Journey        ");
+console.log("````````````````````````````````````````````````````");
+console.log(" Subscribe My Youtube Channel For Link Update       ");
+console.log(" Youtube:https://www.youtube.com/@learningjourneybd ");
+console.log("____________________________________________________");
 console.log("");
 userInput.question("Enter your link:~$ ", (value) => {
   console.log(value);
